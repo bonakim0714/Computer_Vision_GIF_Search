@@ -1,0 +1,52 @@
+@font-face{
+  font-family: 'DINPro-Medium';
+  src: url('/assets/DINPro-Medium.ttf') format ('truetype');
+}
+
+
+.image_box{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-family: 'DINPro-Medium';
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border-radius: 3px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #424242;
+  color: white;
+}
+
+#status{
+  font-family: 'DINPro-Medium';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+#sketch-holder{
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
